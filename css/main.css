@@ -107,4 +107,29 @@ nav a.active, nav a:hover {
   margin: auto;
 }
 
+.main-content {
+  background: #f8f9fa;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.gallery img {
+  width: 90%;
+  height: 90%;
+  margin: auto;
+}
+
+.gallery-2 {
+  display: grid;
+  place-items: center;
+}
+.gallery-2 img {
+  width: 90%;
+  height: 90%;
+  margin: auto;
+}
+
 /*# sourceMappingURL=main.css.map */

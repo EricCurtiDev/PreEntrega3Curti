@@ -225,17 +225,6 @@ a.active,a:hover{
     grid-column-start: span 2;
 }
 
-.rec-container-1{
-    display: flex;
-    align-items: center;
-}
-
-.rec-img-1 {
-    width: 350px;
-    margin-right: 30px;
-    margin-bottom: 10px;
-    border-radius: 15px;
-}
 
 /*Media Queries*/
 

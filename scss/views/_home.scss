@@ -1,0 +1,27 @@
+.main-content{
+    background: #f8f9fa;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+    img{
+        width: 90%;
+        height: 90%;
+        margin:auto;
+    }
+}
+
+.gallery-2{
+    display: grid;
+    place-items: center;
+
+    img{
+        width: 90%;
+        height: 90%;
+        margin: auto;
+    }
+}
+
