@@ -6,4 +6,9 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Josefin";
+  src: url(/assets/fonts/JosefinSans-VariableFont_wght.ttf);
+}
+
 /*# sourceMappingURL=main.css.map */
