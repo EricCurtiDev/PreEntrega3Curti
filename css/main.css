@@ -11,4 +11,42 @@
   src: url(/assets/fonts/JosefinSans-VariableFont_wght.ttf);
 }
 
+h1 {
+  font-family: "Josefin", serif;
+  font-size: 50px;
+  text-align: center;
+  justify-content: center;
+  margin: 10px;
+  color: #000;
+}
+
+h2 {
+  font-family: "Josefin", serif;
+  color: #000;
+}
+
+h3 {
+  font-family: "Josefin", serif;
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  margin: 10px;
+  color: #000;
+}
+
+p {
+  font-family: "Josefin", serif;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  margin: 10px;
+  color: #000;
+}
+
+small {
+  font-family: "Josefin", serif;
+  font-size: 15px;
+  color: #fff;
+}
+
 /*# sourceMappingURL=main.css.map */
