@@ -140,3 +140,55 @@ a.active,a:hover{
     margin: auto;
 }
 
+/*Footer*/
+
+.footer{
+    width: 100%;
+    background-color: #0a141d;
+}
+
+.footer .group-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+
+.footer .group-1 .box-figure img{
+    width: 250px;
+}
+
+.footer .group-1 .box h2{
+    color: #ffffff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+
+.footer .group-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.footer .group-1 .box .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #ffffff;
+    background-color: #0d2033;
+    text-align: center;
+}
+
+.footer .group-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
