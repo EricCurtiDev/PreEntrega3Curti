@@ -10,7 +10,6 @@
   font-family: "Josefin";
   src: url(/assets/fonts/JosefinSans-VariableFont_wght.ttf);
 }
-
 h1 {
   font-family: "Josefin", serif;
   font-size: 50px;
@@ -47,6 +46,65 @@ small {
   font-family: "Josefin", serif;
   font-size: 15px;
   color: #fff;
+}
+
+label.logo {
+  color: #fff;
+  font-family: "Josefin", serif;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-text-stroke: 1px #000;
+}
+
+nav {
+  background: linear-gradient(15deg, #018f14, #ffffff, #fd0202);
+  height: 80px;
+}
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+nav li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav a {
+  color: #fff;
+  font-family: "Josefin", serif;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 3px;
+}
+nav a.active, nav a:hover {
+  background: linear-gradient(to right, #00c9ff, #92fe2D);
+  transition: 0.5s;
+  padding: 9px;
+  border-radius: 20px;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: #fff;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+  -webkit-text-stroke: 1px #fff;
+}
+
+#check {
+  display: none;
+}
+
+.container-fluid img {
+  height: 500px;
+  margin: auto;
 }
 
 /*# sourceMappingURL=main.css.map */

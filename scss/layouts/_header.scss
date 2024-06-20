@@ -1,0 +1,62 @@
+label.logo{
+    color: $color-text-secondary;
+    font-family: $font-family;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-text-stroke: 1px $color-text-primary;
+}
+
+nav{
+    background: linear-gradient(15deg, $color-background-primary);
+    height: 80px;
+
+    ul{
+        float: right;
+        margin-right: 20px;
+    }
+
+    li{
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 5px;
+    }
+
+    a{
+        color: $color-text-secondary;
+        font-family: $font-family;
+        font-size: 17px;
+        text-transform:uppercase; 
+        font-weight: bold;
+        border-radius: 3px;
+
+        &.active,&:hover{
+            background: linear-gradient(to right, $color-background-secondary);
+            transition: .5s;
+            padding: 9px;
+            border-radius: 20px;
+        }
+    }
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: $color-text-secondary;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    -webkit-text-stroke: 1px $color-text-secondary;
+}
+
+#check{
+    display: none;
+}
+
+.container-fluid img{
+    height: 500px;
+    margin: auto;
+}
