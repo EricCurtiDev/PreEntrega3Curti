@@ -1,0 +1,11 @@
+{
+  "name": "preentrega3curti",
+  "version": "1.0.0",
+  "description": "page about tourism in oaxaca offering the best experiences around the state",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "EricCurtiDev",
+  "license": "ISC"
+}

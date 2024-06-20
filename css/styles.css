@@ -19,10 +19,12 @@ h1{
     text-align: center;
     justify-content: center;
     margin: 10px;
+    color: #000;
 }
 
 h2{
     font-family: "Josefin";
+    color: #000;
 }
 
 h3{
@@ -31,6 +33,7 @@ h3{
     text-align: center;
     justify-content: center;
     margin: 10px;
+    color: #000;
 }
 
 p{
@@ -39,11 +42,13 @@ p{
     text-align: center;
     justify-content: center;
     margin: 10px;
+    color: #000;
 }
 
 small{
     font-family: "Josefin";
     font-size: 15px;
+    color: #fff;
 }
 
 /*NavBar*/
@@ -53,7 +58,7 @@ nav{
 }
 
 label.logo{
-    color: white;
+    color: #fff;
     font-family: "Josefin";
     font-size: 35px;
     line-height: 80px;
@@ -75,7 +80,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: white;
+    color: #fff;
     font-family: "Josefin";
     font-size: 17px;
     text-transform:uppercase; 
@@ -93,7 +98,7 @@ a.active,a:hover{
 
 .checkbtn{
     font-size: 30px;
-    color: #ffffff;
+    color: #fff;
     float: right;
     line-height: 80px;
     margin-right: 40px;
@@ -163,7 +168,7 @@ a.active,a:hover{
 }
 
 .footer .group-1 .box h2{
-    color: #ffffff;
+    color: #fff;
     margin-bottom: 25px;
     font-size: 20px;
 }
