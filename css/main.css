@@ -223,4 +223,97 @@ nav a.active, nav a:hover {
   grid-column-start: span 2;
 }
 
+/*Media Queries*/
+
+/*NavBar*/
+@media (max-width: 952px){
+  label.logo{
+      font-size: 30px;
+      padding-left: 15px;
+  }
+
+  nav ul li a{
+      font-size: 16px;
+  }
+}
+
+
+@media (max-width:858px){
+  .checkbtn{
+      display: block;
+  }
+
+  ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background:linear-gradient(15deg, #00c9ff, #92fe2D);
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+  }
+
+  nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+  }
+
+  nav ul li a{
+      font-size: 20px;
+  }
+
+  a:hover,a.active{
+      background: none;
+      color: #ff1500;
+  }
+
+  #check:checked ~ ul{
+      left: 0;
+  }
+
+  .container-fluid img{
+      height: 200px;
+  }
+
+  /*Gallery*/
+
+  .gallery{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 10px;
+  }
+
+  .gallery-2{
+      display: flex;
+      gap: 10px;
+      margin-bottom: 30px;
+  }
+
+  /*Footer*/
+  .footer .group-1{
+      width: 90%;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 30px;
+      padding: 35px 0px;
+  }
+
+  /*Food/Tourism & Handicraft Gallery*/
+
+  .container {
+      padding: 30px;
+      grid-template-columns: repeat(1, 1fr);
+      margin-bottom: 20px;
+  }
+
+  .box:nth-child(1) {
+      grid-column-start: span 1;
+  }
+
+  .box:nth-child(4) {
+      grid-column-start: span 1;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
