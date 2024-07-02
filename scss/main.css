@@ -1,0 +1,251 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Josefin";
+  src: url(/assets/fonts/JosefinSans-VariableFont_wght.ttf);
+}
+h1 {
+  font-family: "Josefin", serif;
+  font-size: 50px;
+  text-align: center;
+  justify-content: center;
+  margin: 10px;
+  color: #000;
+}
+
+h2 {
+  font-family: "Josefin", serif;
+  color: #000;
+}
+
+h3 {
+  font-family: "Josefin", serif;
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  margin: 10px;
+  color: #000;
+}
+
+p {
+  font-family: "Josefin", serif;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  margin: 10px;
+  color: #000;
+}
+
+small {
+  font-family: "Josefin", serif;
+  font-size: 15px;
+  color: #fff;
+}
+
+label.logo {
+  color: #fff;
+  font-family: "Josefin", serif;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-text-stroke: 1px #000;
+}
+
+nav {
+  background: linear-gradient(15deg, #018f14, #ffffff, #fd0202);
+  height: 80px;
+}
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+nav li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav a {
+  color: #fff;
+  font-family: "Josefin", serif;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 3px;
+}
+nav a.active, nav a:hover {
+  background: linear-gradient(to right, #00c9ff, #92fe2D);
+  transition: 0.5s;
+  padding: 9px;
+  border-radius: 20px;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: #fff;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+  -webkit-text-stroke: 1px #fff;
+}
+
+#check {
+  display: none;
+}
+
+.container-fluid img {
+  height: 500px;
+  margin: auto;
+}
+
+.main-content {
+  background: #f8f9fa;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.gallery img {
+  width: 90%;
+  height: 90%;
+  margin: auto;
+}
+
+.gallery-2 {
+  display: grid;
+  place-items: center;
+}
+.gallery-2 img {
+  width: 90%;
+  height: 90%;
+  margin: auto;
+}
+
+.footer {
+  width: 100%;
+  background-color: #0a141d;
+}
+.footer .group-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+.footer .group-1 .box-figure img {
+  width: 250px;
+}
+.footer .group-1 .box h2 {
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.footer .group-1 .box p {
+  color: #efefef;
+  margin-bottom: 10px;
+}
+.footer .group-1 .red-social a {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  background-color: #0d2033;
+  text-align: center;
+}
+
+.footer .group-2 {
+  background-color: #0a1a2a;
+  padding: 15px 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 250px;
+  grid-gap: 20px;
+  padding: 100px 0;
+}
+
+.box-gallery img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.box-gallery:nth-child(1) {
+  grid-column-start: span 2;
+}
+
+.box-gallery:nth-child(4) {
+  grid-column-start: span 2;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 250px;
+  grid-gap: 20px;
+  padding: 100px 0;
+}
+
+.box-gallery img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.box-gallery:nth-child(1) {
+  grid-column-start: span 2;
+}
+
+.box-gallery:nth-child(4) {
+  grid-column-start: span 2;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 250px;
+  grid-gap: 20px;
+  padding: 100px 0;
+}
+
+.box-gallery img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.box-gallery:nth-child(1) {
+  grid-column-start: span 2;
+}
+
+.box-gallery:nth-child(4) {
+  grid-column-start: span 2;
+}/*# sourceMappingURL=main.css.map */
