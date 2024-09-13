@@ -195,3 +195,9 @@ h2 {
     text-align: center;
     padding-top: 20px;
 }
+
+/*Remove Products Button*/
+
+.delete-product {
+    cursor: pointer;
+}
