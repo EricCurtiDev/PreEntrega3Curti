@@ -29,7 +29,7 @@ const pintarCarrito = () => {
         `;
 
         modalContainer.append(carritoContent);
-        
+
         let eliminar = document.createElement("span");
 
         eliminar.innerText = "❌";
@@ -38,3 +38,11 @@ const pintarCarrito = () => {
 
         eliminar.addEventListener("click" , eliminarProducto);
     });
+
+    const total = carrito.reduce((acc, el) => acc + el.precio * el.cantidad, 0);
+
+    const totalBuy = document.createElement("div")
+    totalBuy.className = "total-content"
+    totalBuy.innerHTML = `total: ${total} $`
+    modalContainer.append(totalBuy);
+};
