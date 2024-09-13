@@ -15,3 +15,17 @@ const pintarCarrito = () => {
     modalbutton.addEventListener("click", () =>{
         modalContainer.style.display = "none";
     });
+
+    modalHeader.append(modalbutton);
+
+    carrito.forEach((product) => {
+        let carritoContent = document.createElement("div");
+        carritoContent.className = "modal-content"
+        carritoContent.innerHTML = `
+            <img src="${product.img}">
+            <h3>${product.nombre}</h3>
+            <p>${product.precio} $</p>
+            <p> x ${product.cantidad}</p>
+        `;
+
+        modalContainer.append(carritoContent);
