@@ -59,3 +59,17 @@ const eliminarProducto = () => {
     saveLocal();
     pintarCarrito();
 };
+
+const carritoCounter = () => {
+    cantidadCarrito.style.display = "block";
+
+    const carritoLength = carrito.length; 
+
+    localStorage.setItem("carritoLength", JSON.stringify(carritoLength))
+
+    cantidadCarrito.innerText = JSON.parse(localStorage.getItem("carritoLength"));
+
+    cantidadCarrito.innerHTML = carrito.length;
+};
+
+carritoCounter();

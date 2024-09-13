@@ -201,3 +201,17 @@ h2 {
 .delete-product {
     cursor: pointer;
 }
+
+/*Cart Items Counter*/
+
+.cantidad-carrito {
+    background-color: #24af01;
+    color: #E0E0E0;
+    border-radius: 40%;
+    font-size: 12px;
+    padding: 3px;
+    top: 50px;
+    right: 10px;
+    position: absolute;
+    display: none;
+}
