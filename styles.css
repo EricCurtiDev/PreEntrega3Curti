@@ -8,3 +8,35 @@ body {
     font-family: "Montserrat", sans-serif;
     background-color: #023047;
 }
+
+
+/*navbar*/
+
+.nav-container {
+    position: sticky;
+    z-index: 3;
+    top: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 12vh;
+    background-color: black;
+}
+
+.navbar-logo {
+    justify-self: start;
+    margin-left: 20px;
+    color: #33ff00;
+    text-shadow: 1px 1px 3px rgba(0,0,0, 0.2);
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.ver-carrito {
+    font-size: 25px;
+    margin-right: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
