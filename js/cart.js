@@ -46,3 +46,16 @@ const pintarCarrito = () => {
     totalBuy.innerHTML = `total: ${total} $`
     modalContainer.append(totalBuy);
 };
+
+verCarrito.addEventListener("click", pintarCarrito);
+
+const eliminarProducto = () => {
+    const foundID = carrito.find((element) => element.id);
+
+    carrito = carrito.filter((carritoId) => {
+        return carritoId !== foundID;
+    });
+    carritoCounter();
+    saveLocal();
+    pintarCarrito();
+};
